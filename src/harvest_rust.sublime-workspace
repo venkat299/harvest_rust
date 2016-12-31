@@ -1,0 +1,1052 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cost",
+				"cost_var"
+			],
+			[
+				"T",
+				"Theta_grad"
+			],
+			[
+				"X",
+				"X_grad"
+			],
+			[
+				"th",
+				"Theta_grad"
+			],
+			[
+				"pre",
+				"prec"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"Point",
+				"Point2D"
+			],
+			[
+				"in",
+				"isInside"
+			],
+			[
+				"p_",
+				"p_y"
+			],
+			[
+				"x",
+				"xmax"
+			],
+			[
+				"mo",
+				"moves"
+			],
+			[
+				"mov",
+				"moves"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"m",
+				"match"
+			],
+			[
+				"sample",
+				"sample_2"
+			],
+			[
+				"twin",
+				"twin_source"
+			],
+			[
+				"so",
+				"source"
+			],
+			[
+				"tw",
+				"twin_source"
+			],
+			[
+				"twi",
+				"twin_prev_node"
+			],
+			[
+				"St",
+				"StdOut"
+			],
+			[
+				"pr",
+				"priority"
+			],
+			[
+				"pri",
+				"priority"
+			],
+			[
+				"tre",
+				"tree_list"
+			],
+			[
+				"move",
+				"moves_made"
+			],
+			[
+				"sol",
+				"solution_node"
+			],
+			[
+				"solutio",
+				"solution_node"
+			],
+			[
+				"nei",
+				"neighbour"
+			],
+			[
+				"ne",
+				"neighbours"
+			],
+			[
+				"de",
+				"dequeue"
+			],
+			[
+				"I",
+				"initial"
+			],
+			[
+				"int",
+				"initial"
+			],
+			[
+				"Min",
+				"MinPQ"
+			],
+			[
+				"has",
+				"hashCode"
+			],
+			[
+				"swap",
+				"swap_idx"
+			],
+			[
+				"y",
+				"y_pos"
+			],
+			[
+				"for",
+				"fore\tfor (each)"
+			],
+			[
+				"hamm",
+				"hamming"
+			],
+			[
+				"sam",
+				"sample_board"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"swa",
+				"swapped_array"
+			],
+			[
+				"sw",
+				"swapped_array"
+			],
+			[
+				"no",
+				"no_of_neighbours"
+			],
+			[
+				"fi",
+				"find_zero_idx"
+			],
+			[
+				"zero",
+				"zero_idx"
+			],
+			[
+				"cal",
+				"calculate_hamming"
+			],
+			[
+				"ma",
+				"manhattan"
+			],
+			[
+				"ran",
+				"random_idx"
+			],
+			[
+				"s",
+				"sy\tsynchronized"
+			],
+			[
+				"slo",
+				"slope_order"
+			],
+			[
+				"slop",
+				"slope_order"
+			],
+			[
+				"match",
+				"match_count"
+			],
+			[
+				"slope",
+				"slope_arr"
+			],
+			[
+				"sl",
+				"slope_arr"
+			],
+			[
+				"sort",
+				"sorted_points"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"li",
+				"LineSegment"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"u",
+				"usize"
+			],
+			[
+				"max",
+				"max_prime"
+			],
+			[
+				"prime",
+				"primes"
+			],
+			[
+				"ext",
+				"extern-mod\textern \"C\" { … }"
+			],
+			[
+				"ex",
+				"extern-mod\textern \"C\" { … }"
+			],
+			[
+				"pro",
+				"prob_3"
+			],
+			[
+				"eu",
+				"euler_problem"
+			],
+			[
+				"prim",
+				"prime_factors"
+			],
+			[
+				"sum",
+				"sum"
+			],
+			[
+				"num",
+				"num_2"
+			],
+			[
+				"si",
+				"signal_status"
+			],
+			[
+				"tra",
+				"transaction_value"
+			],
+			[
+				"tr",
+				"transaction_value"
+			],
+			[
+				"PENDINg",
+				"PENDING_CLOSE"
+			],
+			[
+				"P",
+				"PENDING_OPEN"
+			],
+			[
+				"str",
+				"strategy_id"
+			],
+			[
+				"eod",
+				"eod_download_trigger"
+			],
+			[
+				"or",
+				"order_qty"
+			],
+			[
+				"order",
+				"order_qty"
+			],
+			[
+				"all",
+				"allowed_qty"
+			],
+			[
+				"orde",
+				"order_qty"
+			],
+			[
+				"stra",
+				"strategy_stock"
+			],
+			[
+				"mok",
+				"mock_dt"
+			],
+			[
+				"dele",
+				"delete_by_strategy"
+			],
+			[
+				"strategy",
+				"strategy_stock"
+			],
+			[
+				"del",
+				"delete_by_strategy"
+			],
+			[
+				"ordde",
+				"order_id"
+			],
+			[
+				"o",
+				"order_log"
+			],
+			[
+				"oder",
+				"order_obj"
+			],
+			[
+				"approve",
+				"approve_order"
+			],
+			[
+				"approve_order",
+				"approve_order_schema"
+			],
+			[
+				"ap",
+				"approve_order_schema"
+			],
+			[
+				"appro",
+				"approve_order"
+			],
+			[
+				"prom",
+				"Promise"
+			],
+			[
+				"sav",
+				"saved_entity"
+			],
+			[
+				"save",
+				"save_err"
+			],
+			[
+				"sa",
+				"save_err"
+			],
+			[
+				"appr",
+				"approve"
+			],
+			[
+				"ord",
+				"order_id"
+			],
+			[
+				"auto",
+				"auto-approve"
+			],
+			[
+				"harves",
+				"harvest_strategy"
+			],
+			[
+				"ordr",
+				"order_id"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"rese",
+				"reset_db"
+			],
+			[
+				"get",
+				"get_server"
+			],
+			[
+				"liste",
+				"listening"
+			],
+			[
+				"r",
+				"routine"
+			],
+			[
+				"time",
+				"timezone"
+			],
+			[
+				"debu",
+				"debug_file_config"
+			],
+			[
+				"deb",
+				"debug-file"
+			],
+			[
+				"inf",
+				"info_config"
+			],
+			[
+				"con",
+				"console_config"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"agen",
+				"agenda"
+			],
+			[
+				"es",
+				"esversion"
+			],
+			[
+				"PENDING",
+				"PENDING_CLOSE"
+			],
+			[
+				"PEND",
+				"PENDING_CLOSE"
+			],
+			[
+				"reve",
+				"revert_signal"
+			],
+			[
+				"revert",
+				"revert_signals"
+			],
+			[
+				"Y",
+				"yesterday"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"signa",
+				"signal_status"
+			],
+			[
+				"dash",
+				"dashdot"
+			],
+			[
+				"ret",
+				"returns_std"
+			],
+			[
+				"return",
+				"returns_mean"
+			],
+			[
+				"sig",
+				"signal_log"
+			],
+			[
+				"op",
+				"op_cl_period"
+			],
+			[
+				"fo",
+				"forEach"
+			],
+			[
+				"trigg",
+				"trigger_price"
+			],
+			[
+				"defau",
+				"default_api_test"
+			],
+			[
+				"place",
+				"place_order"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Rust Enhanced/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/Rust.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/Rust.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 376.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"refre",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"eclip",
+				"Eclipse: Format Java"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"logma",
+				"LogMagic Statement (up)"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enable lint",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"rm",
+				"Package Control: Remove Package"
+			],
+			[
+				"fix",
+				"FixMyJS"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"rmove",
+				"Package Control: Remove Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"cargo build",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"ls",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/venkat299/code/rust/harvest"
+	],
+	"file_history":
+	[
+		"/Users/venkat299/code/rust/harvest/src/main.rs",
+		"/Users/venkat299/code/rust/harvest/src/lib.rs",
+		"/Users/venkat299/code/rust/harvest/src/executor/mod.rs",
+		"/Users/venkat299/code/python/harvest/src/executor/order_executor.rs",
+		"/Users/venkat299/code/rust/harvest/src/harvest/executor.rs",
+		"/Users/venkat299/code/rust/harvest/src/harvest/executor/mod.rs",
+		"/Users/venkat299/code/rust/harvest/src/harvest/mod.rs",
+		"/Users/venkat299/code/rust/harvest/src/executor.rs",
+		"/Users/venkat299/code/rust/harvest/src/executor/execute.rs",
+		"/Users/venkat299/code/ml/machine-learning-ex8/ex8/ex8_cofi.m",
+		"/Users/venkat299/code/ml/machine-learning-ex4/ex4/ex4.m",
+		"/Users/venkat299/code/ml/machine-learning-ex8/ex8/cofiCostFunc.m",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_5/KdTree.java",
+		"/Users/venkat299/code/ml/machine-learning-ex8/ex8/estimateGaussian.m",
+		"/Users/venkat299/code/ml/machine-learning-ex8/ex8/selectThreshold.m",
+		"/Users/venkat299/code/ml/machine-learning-ex8/ex8/ex8.m",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_5/Rect.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_5/PointSET.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_5/Point2D.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_5/RectHV.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_5/Point2D.java~",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/collinear/Point.java",
+		"/Users/venkat299/Library/Application Support/Sublime Text 3/Packages/SublimeAStyleFormatter/Default (OSX).sublime-keymap",
+		"/Users/venkat299/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_4/8puzzle/Board.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg_4/8puzzle/Solver.java",
+		"/Users/venkat299/code/scripts/alarm_x.sh",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/collinear/BruteCollinearPoints.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/collinear/LineSegment.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/collinear/FastCollinearPoints.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3_temp/Point.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/Fast.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/Brute.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/Point.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg3/PointPlotter.java",
+		"/Users/venkat299/code/rust/rust_by_example/Cargo.toml",
+		"/Users/venkat299/code/rust/rust_by_example/src/euler.rs",
+		"/Users/venkat299/code/rust/rust_by_example/src/lib.rs",
+		"/Users/venkat299/code/rust/rust_by_example/src/euler_problem/prob_3.rs",
+		"/Users/venkat299/Library/Application Support/Sublime Text 3/Packages/Rust/Rust.sublime-settings",
+		"/Users/venkat299/code/rust/rust_by_example/src/euler_problem/p3.rs",
+		"/Users/venkat299/code/rust/rust_by_example/src/p3_max_prime_factor.rs",
+		"/Users/venkat299/code/rust/rust_by_example/src/main.rs",
+		"/Users/venkat299/code/rust/rust_by_example/src/euler_problem/mod.rs",
+		"/Users/venkat299/code/rust/rust_by_example/euler_problem/euler.rs",
+		"/Users/venkat299/code/rust/rust_by_example/imgur.com/a/adHZs",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg2/Deque.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg2/RandomizedQueue.java",
+		"/Users/venkat299/code/coursera/corsera_algo_1/assg2/Subset.java",
+		"/Users/venkat299/code/harvest/router/login.js",
+		"/Users/venkat299/code/harvest_api/harvest_data/test/init_test_server.js",
+		"/Users/venkat299/code/harvest_api/harvest_data/test/lib/download_nse/eod.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/test/lib/order_log.js",
+		"/Users/venkat299/code/harvest_api/harvest_data/lib/download_nse/eod.js",
+		"/Users/venkat299/code/harvest_api/harvest_data/test/eod.js",
+		"/Users/venkat299/code/harvest_api/harvest_data/test/skip_test.json",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/test/init_test_server.js",
+		"/Users/venkat299/code/harvest_api/harvest_data/config.json",
+		"/Users/venkat299/code/harvest_api/harvest_data/app_logger.js",
+		"/Users/venkat299/code/harvest_api/harvest_executor/lib/order_executor.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/index.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/lib/update_order.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/component/watchlist.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/lib/budget_manager.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/lib/buy.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/lib/budget_manager.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/bjsjgk.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/lib/order_evaluator.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/order_evaluator.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/init_test_server.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/lib/approve_order.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/task.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/scheduler/jobs/eod.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/scheduler/jobs/hist_eod.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/strategy/hzwx58.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/scheduler/jobs/fifty_2_wk.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/component/strategy.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/frontend/html/strategy.html",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/component/eod.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/frontend/html/strategy_stock.html",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/component/order_log.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/frontend/html/watchlist.html",
+		"/Users/venkat299/code/harvest_api/harvest_server/frontend/html/order_log.html",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/lib/sell.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/signal_log/wg9965.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/w9wq4j.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/strategy_stock/ee8rbj.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/strategy_stock/a03mbh.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/signal_log/daa1u7.json",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/test/lib/fifty_2_wk.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/m3xf7n.json",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/index.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/watchlist/jyh7bl.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/strategy_stock/dk3ws5.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/strategy_stock/desdz0.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/watchlist/csw9kq.json",
+		"/Users/venkat299/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/test/lib/watchlist.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/lib/watchlist.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/node_modules/harvest_strategy/lib/watchlist.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/component/strategy_stock.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/test/test_db/watchlist/23y2t9.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/index.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/lib/strategy_stock.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/lib/signal_log.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/test/lib/signal_log.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/test/lib/strategy_stock.js",
+		"/Users/venkat299/code/harvest_api/harvest_strategy/lib/order_log.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/.gitignore",
+		"/Users/venkat299/code/harvest_api/harvest_server/frontend/html/header.html",
+		"/Users/venkat299/code/harvest_api/harvest_server/frontend/html/signal_log.html",
+		"/Users/venkat299/code/harvest_api/harvest_server/app_logger.js",
+		"/Users/venkat299/code/harvest_api/harvest_server/config.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/server/router/index.js",
+		"/Users/venkat299/code/harvest_api/harvest_executor/package.json",
+		"/Users/venkat299/code/harvest_api/harvest_executor/test/lib/order_executor.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/6a369v.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/node_modules/harvest_strategy/lib/signal_log.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/package.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/t0hntv.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/8l4nim.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/node_modules/harvest_executor/lib/order_executor.js",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/3vyqiw.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/7d4o7e.json",
+		"/Users/venkat299/code/harvest_api/harvest_server/node_modules/node.extend/node_modules/is/CHANGELOG.md",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/2qlb9c.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/hui40k.json",
+		"/Users/venkat299/code/harvest_api/harvest_evaluator/test/test_db/order_log/ydmlmk.json"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>",
+			"-/node_modules/*",
+			"-*/node_modules/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cost_sum",
+			"yval",
+			"\n\t",
+			"{                     ",
+			"public          ",
+			"}p",
+			"\n   ",
+			") ",
+			"()",
+			"} //",
+			"{}",
+			"public",
+			")",
+			"public",
+			"    ",
+			"   ",
+			"y",
+			"twin_search",
+			"other",
+			"prev_node",
+			"push",
+			"Key",
+			"prev_board",
+			"deqeued",
+			"dequed",
+			"Key",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"    \t\t \t\t\n",
+			"no_of_neighbours",
+			"no",
+			"no_",
+			"no_of",
+			"swapped_array",
+			"rand",
+			"Rand",
+			"rand",
+			"Rand",
+			"rand",
+			"add",
+			"int[] swapped_array",
+			"swapped_array",
+			"y",
+			"block",
+			"blocks",
+			"length",
+			"int[",
+			"sample_board",
+			"dest",
+			"blocks",
+			"x",
+			"curr_match_index",
+			"srt_pts",
+			"sorted_pts",
+			"curr_val",
+			"sorted_points",
+			"points",
+			"system",
+			"sys",
+			"idx",
+			"index",
+			"int",
+			"BruteCollinearPoints",
+			"point",
+			"String",
+			"i",
+			"13195",
+			"limit",
+			"curr",
+			"bound",
+			"limit",
+			"    //",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"29",
+			"i32",
+			"num",
+			"five_factors",
+			"3",
+			"three_factors",
+			"3_factors",
+			"3",
+			"x",
+			"StdRandom",
+			"console",
+			"  ",
+			"delete_order",
+			"':",
+			"      '",
+			"budget",
+			"hard_limit",
+			"x",
+			"val",
+			"signal_log",
+			"err",
+			"get_available_budget",
+			"approve_order",
+			"eod_download",
+			"download",
+			"<",
+			"monthly_eod_update",
+			"small",
+			"clear_signal_order",
+			"format",
+			"price",
+			"console",
+			"buy",
+			"        expect(val.cb_msg_obj).to.be.an('object');",
+			"        expect(val.cb_msg_obj.tradingsymbol).to.be.a('string');\n        expect(val.cb_msg_obj.strategy_id).to.be.a('string');\n        expect(val.cb_msg_obj.track_id).to.be.a('string');\n        expect(val.cb_msg_obj.ltp).to.be.a('number');",
+			"status",
+			"temp",
+			"console",
+			"run all",
+			"signal_log_api",
+			"reset_by_strategy",
+			"activate",
+			"change_status",
+			"':",
+			"       '",
+			"signal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Rust/Rust.sublime-build",
+	"project": "harvest_rust.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"./node_modules/",
+				"harvest_api/harvest_server/node_modules/node.extend/node_modules/is/CHANGELOG.md"
+			],
+			[
+				"fifty",
+				"harvest_api/harvest_strategy/python_src/strategy/fifty_2_wk.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1024.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
