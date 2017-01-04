@@ -20,15 +20,16 @@ extern crate rustc_serialize;
 
 
 #[derive(Debug, RustcDecodable, RustcEncodable)]
-pub struct Order {
-    // pub tradingsymbol:i32,
+pub struct RegularOrder {
+    pub tradingsymbol: super::Symbol,
     pub exchange: super::Exchange,
     pub transaction_type: super::TransactionType,
     pub order_type: super::OrderType,
-    pub quantity: i32,
-    pub product: super::Product, /* pub trigger_price: String,
-                                  * pub disclosed_quantity : String,
-                                  * pub validity : String,
-                                  * pub tag:String,
-                                  * pub status: super::OrderStatus */
+    pub quantity: u32,
+    pub product: super::Product,
+    pub price: f32,
+    pub trigger_price: f32,
+    pub disclosed_quantity: u32,
+    pub validity: super::Validity,
+    pub tag: String,
 }

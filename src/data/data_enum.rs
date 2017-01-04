@@ -85,6 +85,79 @@ impl ToJson for Product {
 }
 
 
+#[derive(Debug, RustcDecodable, RustcEncodable)]
+pub enum Validity {
+    DAY,
+    IOC,
+    GTO,
+    AMO,
+}
+impl Validity {
+    fn get_str(&self) -> &'static str {
+        match *self {
+            Validity::DAY => "DAY",
+            Validity::IOC => "IOC",
+            Validity::GTO => "GTO",
+            Validity::AMO => "AMO",
+        }
+    }
+}
+impl ToJson for Validity {
+    fn to_json(&self) -> Json {
+        to_json_impl("validity".to_string(), self.get_str())
+    }
+}
+
+
 fn to_json_impl(key: String, val: &'static str) -> Json {
     Json::String(format!("{}:{}", key, val))
 }
+
+// "data": {
+// "order_variety": [
+// "regular",
+// "amo",
+// "bo",
+// "co"
+// ],
+// "segment": [
+// "equity",
+// "commodity"
+// ],
+// "transaction_type": [
+// "BUY",
+// "SELL"
+// ],
+// "order_type": [
+// "MARKET",
+// "LIMIT",
+// "SL",
+// "SL-M"
+// ],
+// "position_type": [
+// "day",
+// "overnight"
+// ],
+// "validity": [
+// "DAY",
+// "IOC",
+// "GTC",
+// "AMO"
+// ],
+// "product": [
+// "NRML",
+// "MIS",
+// "CNC",
+// "CO"
+// ],
+// "exchange": [
+// "NSE",
+// "BSE",
+// "NFO",
+// "CDS",
+// "MCX",
+// "MCXSX",
+// "BFO"
+// ]
+// }
+//
