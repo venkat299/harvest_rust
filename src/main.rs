@@ -5,8 +5,14 @@ extern crate harvest;
 use harvest::executor;
 use harvest::data::*;
 use harvest::helper;
+use std::path::Path;
 
 extern crate toml;
+
+extern crate rusqlite;
+// extern crate time;
+// use time::Timespec;
+use rusqlite::Connection;
 
 fn main() {
 
@@ -25,7 +31,7 @@ fn main() {
         trigger_price: 0.0,
         disclosed_quantity: 0,
         validity: Validity::DAY,
-        tag: "52_DAY".to_string(),
+        tag: "LOW52D".to_string(),
     };
     println!("order info {:?}", order);
 
@@ -34,14 +40,43 @@ fn main() {
     println!("json_str {:?}", encoded);
 
 
-    // reading configuration file
-    let filename = "./config/config.toml";
-    let config_input = helper::read_file(&filename);
-    let mut parser = toml::Parser::new(&config_input);
-    let app_config = parser.parse().unwrap();
-    let db_path = app_config.get("db_path");
-    println!("{:?}", db_path.unwrap().as_str().unwrap());
+    // getting absolute path
+    let rel_path = "./config/config.toml";
+    let path = Path::new(&rel_path).canonicalize().unwrap();
+    let config_path = path.to_str().unwrap();
 
+    // getting config
+    let app_config = helper::read_config(&config_path);
+    let db_path_toml = app_config.get("db_path").unwrap();
+    let db_path = db_path_toml.as_str().unwrap();
+
+    println!("{:?}", &db_path);
+
+    // connecting to sqlite
+    let conn = Connection::open(Path::new(&db_path)).unwrap();
+    let mut stmt = conn.prepare("SELECT * FROM eod").unwrap();
+    let person_iter = stmt.query_map(&[], |row| {
+            harvest::data::Eod {
+                symbol: row.get(0),
+                series: row.get(1),
+                open: row.get(2),
+                high: row.get(3),
+                low: row.get(4),
+                close: row.get(5),
+                last: row.get(6),
+                prevclose: row.get(7),
+                tottrdqty: row.get(8),
+                tottrdval: row.get(9),
+                timestamp: row.get(10),
+                totaltrades: row.get(11),
+                isin: row.get(12),
+            }
+        })
+        .unwrap();
+    println!("person length {:?}", &person_iter.count());
+    // for person in person_iter {
+    //     println!("Found person {:?}", person.unwrap());
+    // }
 
 
 

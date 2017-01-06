@@ -13,3 +13,23 @@
 //   ,TOTALTRADES INTEGER  NOT NULL
 //   ,ISIN        VARCHAR(12) NOT NULL
 // );
+
+#[derive(Debug)]
+pub struct Eod {
+    pub symbol: String,
+    pub series: String,
+    pub open: f64,
+    pub high: f64,
+    pub low: f64,
+    pub close: f64,
+    pub last: f64,
+    pub prevclose: f64,
+    pub tottrdqty: i64,
+    pub tottrdval: f64,
+    pub timestamp: String,
+    pub totaltrades: i64,
+    pub isin: String, /* id: i32,
+                       * name: String,
+                       * time_created: Timespec,
+                       * data: Option<Vec<u8>> */
+}
