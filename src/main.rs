@@ -4,6 +4,7 @@ use rustc_serialize::json;
 extern crate harvest;
 use harvest::executor;
 use harvest::data::*;
+use harvest::helper;
 
 extern crate toml;
 
@@ -11,6 +12,8 @@ fn main() {
 
     println!("Hello in English: {}", executor::execute("buy yesbank 30"));
 
+
+    // order structure
     let order = RegularOrder {
         tradingsymbol: Symbol::YESBANK,
         exchange: Exchange::NSE,
@@ -28,20 +31,16 @@ fn main() {
 
     // Serialize using `json::encode`
     let encoded = json::encode(&order).unwrap();
-
     println!("json_str {:?}", encoded);
 
 
-
-    let toml = r#"
-    db_path = "/Users/venkat299/code/rust/harvest/db/harvest.db"
-    "#;
-
-    #[derive(Debug)]
-    let mut value: toml::Value = toml.parse().unwrap();
-    let db_path = value.lookup_mut("db_path").unwrap();
-
-    println!("{}", db_path.to_string());
+    // reading configuration file
+    let filename = "./config/config.toml";
+    let config_input = helper::read_file(&filename);
+    let mut parser = toml::Parser::new(&config_input);
+    let app_config = parser.parse().unwrap();
+    let db_path = app_config.get("db_path");
+    println!("{:?}", db_path.unwrap().as_str().unwrap());
 
 
 
