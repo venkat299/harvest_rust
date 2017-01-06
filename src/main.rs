@@ -1,12 +1,11 @@
 extern crate rustc_serialize;
 use rustc_serialize::json;
 
-
 extern crate harvest;
-
-
 use harvest::executor;
 use harvest::data::*;
+
+extern crate toml;
 
 fn main() {
 
@@ -31,6 +30,19 @@ fn main() {
     let encoded = json::encode(&order).unwrap();
 
     println!("json_str {:?}", encoded);
+
+
+
+    let toml = r#"
+    db_path = "/Users/venkat299/code/rust/harvest/db/harvest.db"
+    "#;
+
+    #[derive(Debug)]
+    let mut value: toml::Value = toml.parse().unwrap();
+    let db_path = value.lookup_mut("db_path").unwrap();
+
+    println!("{}", db_path.to_string());
+
 
 
 

@@ -5,3 +5,4 @@ authors = ["Venkatesh Duraiarasan <dev_venkat@outlook.com>"]
 
 [dependencies]
 rustc-serialize = "0.3"
+toml = "0.2"
