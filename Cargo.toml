@@ -7,3 +7,5 @@ authors = ["Venkatesh Duraiarasan <dev_venkat@outlook.com>"]
 rustc-serialize = "0.3"
 toml = "0.2"
 rusqlite = "0.8.0"
+subprocess-communicate = "0.2.2"
+encoding = "0.2.33"

@@ -14,10 +14,16 @@ extern crate rusqlite;
 // use time::Timespec;
 use rusqlite::Connection;
 
+#[allow(unused_imports)]
+extern crate subprocess_communicate;
+#[allow(unused_imports)]
+use std::process;
+#[allow(unused_imports)]
+use std::process::{Command, Stdio, Child};
+
 fn main() {
 
     println!("Hello in English: {}", executor::execute("buy yesbank 30"));
-
 
     // order structure
     let order = RegularOrder {
@@ -78,6 +84,5 @@ fn main() {
     //     println!("Found person {:?}", person.unwrap());
     // }
 
-
-
+    // communicate with python
 }
