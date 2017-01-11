@@ -1,2 +1,9 @@
 target
 Cargo.lock
+
+
+db/harvest.db
+downloads/*
+log/*
+src/harvest_rust.sublime-project
+src/harvest_rust.sublime-workspace
