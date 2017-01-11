@@ -6,6 +6,7 @@ use harvest::executor;
 use harvest::data::*;
 use harvest::helper;
 use std::path::Path;
+use harvest::strategy::*;
 
 extern crate toml;
 
@@ -14,12 +15,6 @@ extern crate rusqlite;
 // use time::Timespec;
 use rusqlite::Connection;
 
-#[allow(unused_imports)]
-extern crate subprocess_communicate;
-#[allow(unused_imports)]
-use std::process;
-#[allow(unused_imports)]
-use std::process::{Command, Stdio, Child};
 
 fn main() {
 
@@ -47,39 +42,44 @@ fn main() {
 
 
     // getting absolute path
-    let rel_path = "./config/config.toml";
+    let rel_path = "src/config/config.toml";
     let path = Path::new(&rel_path).canonicalize().unwrap();
     let config_path = path.to_str().unwrap();
+    println!("config_path {:?}", &config_path);
 
     // getting config
     let app_config = helper::read_config(&config_path);
     let db_path_toml = app_config.get("db_path").unwrap();
     let db_path = db_path_toml.as_str().unwrap();
-
     println!("{:?}", &db_path);
 
-    // connecting to sqlite
-    let conn = Connection::open(Path::new(&db_path)).unwrap();
-    let mut stmt = conn.prepare("SELECT * FROM eod").unwrap();
-    let person_iter = stmt.query_map(&[], |row| {
-            harvest::data::Eod {
-                symbol: row.get(0),
-                series: row.get(1),
-                open: row.get(2),
-                high: row.get(3),
-                low: row.get(4),
-                close: row.get(5),
-                last: row.get(6),
-                prevclose: row.get(7),
-                tottrdqty: row.get(8),
-                tottrdval: row.get(9),
-                timestamp: row.get(10),
-                totaltrades: row.get(11),
-                isin: row.get(12),
-            }
-        })
-        .unwrap();
-    println!("person length {:?}", &person_iter.count());
+    low52d::train::train(&db_path);
+
+
+    // // connecting to sqlite
+    // let conn = Connection::open(Path::new(&db_path)).unwrap();
+    // let mut stmt = conn.prepare("SELECT * FROM eod").unwrap();
+    // let person_iter = stmt.query_map(&[], |row| {
+    //         harvest::data::Eod {
+    //             symbol: row.get(0),
+    //             series: row.get(1),
+    //             open: row.get(2),
+    //             high: row.get(3),
+    //             low: row.get(4),
+    //             close: row.get(5),
+    //             last: row.get(6),
+    //             prevclose: row.get(7),
+    //             tottrdqty: row.get(8),
+    //             tottrdval: row.get(9),
+    //             timestamp: row.get(10),
+    //             totaltrades: row.get(11),
+    //             isin: row.get(12),
+    //         }
+    //     })
+    //     .unwrap();
+    // println!("person length {:?}", &person_iter.count());
+
+
     // for person in person_iter {
     //     println!("Found person {:?}", person.unwrap());
     // }

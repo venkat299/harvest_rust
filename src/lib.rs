@@ -1,23 +1,24 @@
 extern crate rustc_serialize;
 
+#[macro_use]
+extern crate log;
+
+
 pub mod executor;
 pub mod data;
 pub mod helper;
+pub mod strategy;
 
 #[cfg(test)]
 mod test {
-    // extern crate subprocess_communicate;
-    // use std::process;
-    // use std::process::{Command, Stdio, Child};
-    // use self::encoding::all::UTF_8;
-
-    // extern crate encoding;
-    // use self::encoding::{Encoding, EncoderTrap, DecoderTrap};
     use std::str;
-    #[test]
-    fn test_subprocess_pipe() {
-        use std::process::Command;
+    // python shell call
+    extern crate env_logger;
 
+    #[test]
+    fn subprocess_pipe() {
+        let _ = env_logger::init();
+        use std::process::Command;
         let output = Command::new("/usr/bin/python2.7")
             .arg("/Users/venkat299/code/rust/harvest/src/python/hello.py")
             .output()
@@ -25,7 +26,8 @@ mod test {
 
         let hello = output.stdout;
         let out = str::from_utf8(&hello).unwrap();
-        println!("{:?}", out);
+        debug!("{:?}", out);
+        debug!("can log from the test too");
         assert_eq!(out, "Hello world");
         // assert_eq!(1, 2);
         // assert_eq!(0usize, ret_stderr.len());
